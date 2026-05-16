@@ -1,0 +1,36 @@
+body{
+    font-family: Cochin, 'Times New Roman', serif;
+    text-align: center;
+    color: #330d0d;
+    background-color: blanchedalmond;
+    padding: auto;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #330d0d;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 6px;
+}
+
+li {
+    margin-right: 12px;
+}
+
+a {
+    color: #330d0d;
+} 
+
+h1{
+    font-size: 32px;
+}
+img{
+    border: 1px solid #330d0d;
+}
