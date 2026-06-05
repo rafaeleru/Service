@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #15bdb8;
+    color: #fff;
+    padding: 24px;
+    text-align: center;
+    border-bottom: 3px solid #0d625f;
+}
+
+ /* Grade de Obras */
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 46px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 12px;
+}
+
+.product-image{
+    height: 222px;
+    width: 100%;
+    margin-bottom: 9px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+#img-1{
+    background-image: url('../img/Owl1.jpeg');
+}
+
+#img-2{
+    background-image: url('../img/Owl2.jpeg')
+}
+
+#img-3{
+    background-image: url('../img/Owl3.jpeg')
+}
+
+#img-4{
+    background-image: url('../img/Owl4.jpeg')
+}
+
+#img-5{
+    background-image: url('../img/Owl5.jpeg')
+}
+
+#img-6{
+    background-image: url('../img/Owl6.jpeg')
+}
+
+h3{
+    margin-bottom: 12px;
+    color: #15bdb8;
+    border-left: 12px solid #0d625f;
+    text-align: center;
+    padding-left: 6px;
+    font-size: 24px;
+}
+
+.card_p {
+    margin-bottom: 9px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #15bdb8;
+    color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    transition: 0.6s;
+}
+
+.btn:hover {
+    background-color: #0d625f;
+}
+
+ /* Footer */
+ footer {
+    background-color: #15bdb8;
+    color: #fff;
+    border-top: 3px solid #0d625f;
+    text-align: center;
+    padding: 96px;
+ }
